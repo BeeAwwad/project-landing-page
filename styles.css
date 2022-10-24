@@ -1,5 +1,17 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 header {
   margin: 0 auto;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bold;
 }
 .navigation {
     display: flex;
@@ -7,7 +19,18 @@ header {
 }
 .btn {
     background-color: #3882F6;
-    color: whitesmoke;
+    color: #F9FAF8;
     border-radius: 10px;
     padding: 10px 30px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+li {
+    list-style: none;
+    font-size: 16px;
+}
+header p {
+    font-size: 16px;
 }
