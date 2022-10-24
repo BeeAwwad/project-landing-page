@@ -1,0 +1,13 @@
+header {
+  margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    background-color: #3882F6;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
