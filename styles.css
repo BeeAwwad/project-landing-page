@@ -10,12 +10,50 @@
     width: 100%;
     height: 40%;
     color: #f9faf8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .img-one {
-    width: 400px;
+    width: 45%;
+    border-radius: 5px;
 }
 .head-container {
-    width: 70%;
+    width: 66%;
     background-color: blueviolet;
     margin: 0 auto;
+}
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.logo-nav h1 {
+    font-size: 24px;
+}
+.navigation {
+    display: flex;
+    gap: 15px;
+}
+.navigation li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.h2-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.awsome{
+    width: 45%;
+}
+.awsome h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.awsome p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
 }
