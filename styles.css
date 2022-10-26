@@ -71,7 +71,7 @@ body {
     background-color: deepskyblue;
     height: 33%;
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 .random-stuff h3 {
     text-align: center;
@@ -84,7 +84,7 @@ body {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  width: 55%;
+  width: 65%;
   margin: 0 auto;
   background-color: aquamarine;
   justify-content: space-between;
@@ -180,7 +180,8 @@ body {
     padding: 50px 100px;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 65%;
+    border-radius: 8px;
 }
 .click-again {
     width: 65%;
@@ -189,8 +190,26 @@ body {
     font-size: large;
 }
 .btn {
-    /*background-color: #3882f6;*/
-
+    background-color: #3882f6;
+    padding: 10px 35px;
+    border-radius: 8px;
+    color: #f9faf8;
+    max-width: 130px;
+}
+.it-time .btn {
+    border: 2px solid #f9faf8;
+}
+.footer {
+    background-color: #1F2937;
+    padding: 40px;
+    width: 100%;
+    font-size: small;
+    color: #f9faf8;
+}
+.footer p {
+    margin: 0 auto;
+    background-color: cadetblue;
+    width: fit-content;
 }
 
 
