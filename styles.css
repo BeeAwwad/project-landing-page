@@ -8,7 +8,7 @@
 .header {
     background-color: #1F2937;
     width: 100%;
-    height: 40%;
+    height: 33%;
     color: #f9faf8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -59,5 +59,52 @@
     margin-bottom: 15px;
 }
 .random-stuff {
-    
+    background-color: deepskyblue;
+    height: 33%;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.random-stuff h3 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+.box1-text {
+    width: 200px;
+}
+.box1-text p {
+    width: 100%;
+    text-align: center;
+}
+.box-one {
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box-two {
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box-three {
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box-four {
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
