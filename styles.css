@@ -5,6 +5,11 @@
     list-style: none;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
 .header {
     background-color: #1F2937;
     width: 100%;
@@ -13,7 +18,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .img-one {
-    width: 45%;
+    width: 600px;
+    height: 300px;
     border-radius: 5px;
 }
 .head-container {
@@ -24,6 +30,7 @@
 .logo-nav {
     display: flex;
     justify-content: space-between;
+    flex: 1;
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -41,6 +48,7 @@
 .h2-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 10%;
     background-color: darkgreen;
@@ -131,4 +139,11 @@
     width: 200px;
     height: 200px;
     border-radius: 20px;
+}
+@media screen and (maxwidth: 400px) {
+    .img-one {
+        width: 100%;
+        flex-grow: 1;
+    }
+    
 }
