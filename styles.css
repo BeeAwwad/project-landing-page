@@ -174,10 +174,10 @@ body {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: greenyellow;
+  background-color: white;
 }
 .it-time {
-    background-color: tomato;
+    background-color: #3882f6;
     margin: 0 auto;
     padding: 50px 100px;
     display: flex;
@@ -187,6 +187,7 @@ body {
 }
 .click-again {
     width: 65%;
+    color: white;
 }
 .click-again h4 {
     font-size: large;
