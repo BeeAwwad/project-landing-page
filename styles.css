@@ -68,6 +68,9 @@
     text-align: center;
     padding: 30px;
     margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
 }
 .boxes {
   display: flex;
@@ -84,27 +87,48 @@
     width: 100%;
     text-align: center;
 }
+.box2-text {
+    width: 200px;
+}
+.box2-text p {
+    width: 100%;
+    text-align: center;
+}
+.box3-text {
+    width: 200px;
+}
+.box3-text p {
+    width: 100%;
+    text-align: center;
+}
+.box4-text {
+    width: 200px;
+}
+.box4-text p {
+    width: 100%;
+    text-align: center;
+}
 .box-one {
     border: 5px solid red;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .box-two {
     border: 5px solid red;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .box-three {
     border: 5px solid red;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .box-four {
     border: 5px solid red;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
