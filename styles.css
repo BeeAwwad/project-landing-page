@@ -18,7 +18,7 @@
 }
 .head-container {
     width: 66%;
-    background-color: blueviolet;
+    background-color: crimson; 
     margin: 0 auto;
 }
 .logo-nav {
@@ -42,7 +42,8 @@
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
+    background-color: darkgreen;
 }
 .awsome{
     width: 45%;
@@ -56,4 +57,7 @@
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 15px;
+}
+.random-stuff {
+    
 }
