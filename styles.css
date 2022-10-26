@@ -21,10 +21,11 @@ body {
     width: 45%;
     border-radius: 5px;
     flex-shrink: 1;
+    background-color: darkmagenta;
+    height: 100%;
 }
 .head-container {
     width: 66%;
-    background-color: crimson; 
     margin: 0 auto;
 }
 .logo-nav {
@@ -51,19 +52,22 @@ body {
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 10%;
-    background-color: darkgreen;
     margin: 0 auto;
+    height: 500px;
 }
-.awsome{
+.awsome {
     width: 45%;
+    height: 100%;
+    padding: 0;
+
 }
 .awsome h2 {
-    font-size: 48px;
+    font-size: 55px;
     font-weight: bolder;
     margin-bottom: 15px;
 }
 .awsome p {
-    font-size: 18px;
+    font-size: 22px;
     color: #e5e7eb;
     margin-bottom: 15px;
 }
@@ -168,7 +172,6 @@ body {
     height: 15%;
 }
 .click-here {
-  display: flex;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -198,6 +201,8 @@ body {
 }
 .it-time .btn {
     border: 2px solid #f9faf8;
+    display: flex;
+    justify-content: center;
 }
 .footer {
     background-color: #1F2937;
