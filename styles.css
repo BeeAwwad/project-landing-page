@@ -72,7 +72,7 @@ body {
     margin-bottom: 15px;
 }
 .random-stuff {
-    background-color: deepskyblue;
+    background-color: white;
     height: 33%;
     width: 100%;
     padding-bottom: 10%;
@@ -90,7 +90,6 @@ body {
   flex-wrap: wrap;
   width: 65%;
   margin: 0 auto;
-  background-color: aquamarine;
   justify-content: space-between;
 }
 .box1-text {
@@ -122,25 +121,25 @@ body {
     text-align: center;
 }
 .box-one {
-    border: 5px solid red;
+    border: 5px solid #3882f6;
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 .box-two {
-    border: 5px solid red;
+    border: 5px solid #3882f6;
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 .box-three {
-    border: 5px solid red;
+    border: 5px solid #3882f6;
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 .box-four {
-    border: 5px solid red;
+    border: 5px solid #3882f6;
     width: 200px;
     height: 200px;
     border-radius: 20px;
